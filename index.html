@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width">
+		<title>bradmallow.com</title>
+		<meta name="description" content="blog, info, and projects of Brad Mallow" />
+		<meta name="keywords" content="Brad, Mallow, briznad, blog" />
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="icon" href="/favicon.ico" />
+		<link rel="stylesheet" media="screen,projection" href="/assets/css/local/fonts.css" />
+		<link rel="stylesheet" media="screen,projection" href="/assets/css/css.cat.min.css" />
+		<!--[if IE]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<!--[if lt IE 9]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+		<div class="topBezel ieBoxModel roundTopBig">
+			<header>
+				<a href="http://bradmallow.com"><h1 class="logo center">BradMallow.com</h1></a>
+			</header>
+			<div class="relative-container">
+				<nav>
+					<ul>
+						<li>
+							<a href="#blog" class="blog">Blog</a>
+						</li>
+						<li>
+							<a href="#about" class="about">About Me</a>
+						</li>
+						<li>
+							<a href="#projects" class="projects">Projects</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class="contentContainer bezelShadow">
+			<div class="bezelContainer">
+				<div id="moduleContainer" class="moduleContainer ieBoxModel">
+					<div class="wideBox">
+						<!-- individual posts module -->
+						<div id="permalink" class="contentArea">
+							<div id="singlePostArea"></div>
+						</div>
+						<!-- blog module / main page -->
+						<div id="blog" class="contentArea">
+							<div class="leftCol">
+								<div id="postsArea"></div>
+								<div id="infiniteScrollLoadMsg">
+									<div class="post loadMsg round"><h2><img src="assets/images/loading.gif" alt="loading" /> Loading More Posts</h2></div>
+								</div>
+							</div>
+							<div class="rightCol">
+								<div class="search round module">
+									<form>
+										<h3><label for="tumblrSearchField">Search</label></h3><input type="text" name="search" id="tumblrSearchField" placeholder="Reading Rainbow" />
+										<input type="submit" value="Go!" />
+									</form>
+								</div>
+								<div class="round module">
+									<h3>Posts Of A Feather</h3>
+									<ul id="blogNav">
+										<li style="display: none;"><a title="Show all posts" href="http://bradmallow.com/"><i class="eye"></i>View All</a></li>
+										<li><a title="Show all text posts" href="?post=regular"><i class="regular"></i>Text</a></li>
+										<li><a title="Show all photo posts" href="?post=photo"><i class="photo"></i>Images</a></li>
+										<li><a title="Show all quote posts" href="?post=quote"><i class="quote"></i>Quotes</a></li>
+										<li><a title="Show all link posts" href="?post=link"><i class="link"></i>Links</a></li>
+										<li><a title="Show all video posts" href="?post=video"><i class="video"></i>Videos</a></li>
+										<li><a title="Show all audio posts" href="?post=audio"><i class="audio"></i>Audio</a></li>
+									</ul>
+								</div>
+								<div class="backToTopButtonArea">
+									<a title="Back To The Top" class="backToTop" href="#backToTop"><i></i><span class="visually-hidden">Back To The Top</span></a>
+								</div>
+							</div>
+						</div>
+						<!-- about me module -->
+						<div id="about" class="contentArea">
+							<div class="leftCol">
+								<div class="round module">
+									<h3>Bio</h3>
+									<p>I'm a frontend geek learning, building, and living life in SF.</p>
+									<h3>Resume</h3>
+									<p>I <a href="current_resume-Brad_Mallow.pdf">has it</a>.</p>
+									<h3>Contact Me</h3>
+									<ul class="contactMe">
+										<li><a href="http://twitter.com/briznad"><i class="tweet"></i>@briznad</a></li>
+										<li><a href="mailto:brad.mallow@gmail.com?body=Hi%20Brad"><i class="mail"></i>brad.mallow@gmail.com</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="rightCol">
+								<div class="elsewhere round module">
+									<h3>Also Find Me Here</h3>
+									<ul>
+										<li><a title="del.icio.us" href="http://delicious.com/briznad"><i class="social delicious"></i><span class="visually-hidden">del.icio.us</span></a></li>
+										<li><a title="Facebook" href="http://facebook.com/bradmallow"><i class="social facebook"></i><span class="visually-hidden">Facebook</span></a></li>
+										<li><a title="foursquare" href="http://foursquare.com/user/briznad"><i class="social foursquare"></i><span class="visually-hidden">foursquare</span></a></li>
+										<li><a title="goodreads" href="http://goodreads.com/briznad"><i class="social goodreads"></i><span class="visually-hidden">goodreads</span></a></li>
+										<li><a title="google profile" href="http://www.google.com/profiles/briznad"><i class="social google"></i><span class="visually-hidden">google profile</span></a></li>
+										<li><a title="Last.fm" href="http://www.last.fm/user/briznad"><i class="social lastfm"></i><span class="visually-hidden">Last.fm</span></a></li>
+										<li><a title="LinkedIn" href="http://www.linkedin.com/in/bradmallow"><i class="social linkedin"></i><span class="visually-hidden">LinkedIn</span></a></li>
+										<li><a title="briznad.com on tumblr" href="http://briznad.com"><i class="social tumblr"></i><span class="visually-hidden">briznad.com on tumblr</span></a></li>
+										<li><a title="vimeo" href="http://vimeo.com/briznad"><i class="social vimeo"></i><span class="visually-hidden">vimeo</span></a></li>
+										<li><a title="YouTube" href="http://www.youtube.com/user/br1znad"><i class="social youtube"></i><span class="visually-hidden">YouTube</span></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- projects module -->
+						<div id="projects" class="contentArea">
+							<div class="leftCol">
+								<div class="round module moduleHeader activeProjects">
+									<h2>Recent Projects</h2>
+								</div>
+								<div class="project app round module">
+									<div class="moduleHead">
+										<a href="?project=app" title="Show all App projects" class="moduleType round"><i class="app"></i><span class="visually-hidden">Show all App projects</span></a>
+										<a href="http://8ball.beautifuluniquesnowflake.com/"><h3>Oracle of 8</h3></a>
+									</div>
+									<div class="moduleBody">
+										<a class="project-sample OracleOf8 visually-hidden-text" href="http://8ball.beautifuluniquesnowflake.com/">8ball.beautifuluniquesnowflake.com screenshot</a>
+										<p>I created an online version of the classic <a href="http://en.wikipedia.org/wiki/Magic_8-Ball">Magic 8-Ball</a>, partly as a gift to my girlfriend and partly as a vehicle to explore CSS animations. The Oracle of 8 will answer any yes/no question and can anonymously log the question and answer to its own Twitter account, <a href="http://twitter.com/oracleof8">@OracleOf8</a>.</p>
+										<dl>
+											<dt>Keywords:</dt>
+												<dd>HTML/CSS/JS, CSS3, Bootstrap, jQuery, Twitter API</dd>
+										</dl>
+									</div>
+								</div>
+								<div class="project site round module">
+									<div class="moduleHead">
+										<a href="?project=site" title="Show all Website projects" class="moduleType round"><i class="site"></i><span class="visually-hidden">Website</span></a>
+										<a href="http://www.intuit.com/"><h3>Intuit QuickNav</h3></a>
+									</div>
+									<div class="moduleBody">
+										<a class="project-sample Intuit-QuickNav visually-hidden-text" href="http://www.intuit.com/">intuit.com screenshot</a>
+										<p>Replacing what was previously bulky and overly-complex, I developed a new header used across Intuit.com. With speed a high priority, I worked closely with the Intuit design team to move away from cross-browser "pixel perfection". Instead we took advantage of CSS3 to enhance the visual design, while making sure older browsers still enjoyed a completely usable experience; a first for Intuit.</p>
+										<dl>
+											<dt>Keywords:</dt>
+												<dd>HTML/CSS/JS, CSS3, jQuery</dd>
+										</dl>
+									</div>
+								</div>
+								<div class="project site round module">
+									<div class="moduleHead">
+										<a href="?project=site" title="Show all Website projects" class="moduleType round"><i class="site"></i><span class="visually-hidden">Website</span></a>
+										<a href="http://www.webpagetest.org/result/130129_H7_P5T/"><h3>Intuit Performance Overhaul</h3></a>
+									</div>
+									<div class="moduleBody">
+										<a class="project-sample Intuit-Perf visually-hidden-text" href="http://www.webpagetest.org/result/130129_H7_P5T/">webpagetest.org screenshot of intuit.com results</a>
+										<p>As part of a small consulting team I performed a performance overhaul on Intuit.com - ranked in the US Top 100 by <a href="http://www.alexa.com/siteinfo/intuit.com">Alexa</a> - as well as Intuit's 50 other most frequented pages. We accomplished a halving of page load times, driving a marked increase in growth.</p>
+										<dl>
+											<dt>Keywords:</dt>
+												<dd>HTML/CSS/JS, performance analysis, intense refactoring, build automation, accessibility enhancement</dd>
+										</dl>
+									</div>
+								</div>
+								<div class="project site round module">
+									<div class="moduleHead">
+										<a href="?project=site" title="Show all Website projects" class="moduleType round"><i class="site"></i><span class="visually-hidden">Website</span></a>
+										<a href="http://www.pyxera.com/"><h3>Pyxera</h3></a>
+									</div>
+									<div class="moduleBody">
+										<a class="project-sample Pyxera visually-hidden-text" href="http://www.pyxera.com/">pyxera.com screenshot</a>
+										<p>I worked closely with the design firm <a href="http://hoffmanchrisman.com/">Hoffman Chrisman</a> to develop a site for a medical consulting agency, incorporating a unique animated navigation system.</p>
+										<dl>
+											<dt>Keywords:</dt>
+												<dd>HTML/CSS/JS, SASS, Bootstrap, jQuery, side scroll</dd>
+										</dl>
+									</div>
+								</div>
+								<div class="project app round module">
+									<div class="moduleHead">
+										<a href="?project=app" title="Show all App projects" class="moduleType round"><i class="app"></i><span class="visually-hidden">Show all App projects</span></a>
+										<h3>BdayMindr</h3>
+									</div>
+									<div class="moduleBody">
+										<a class="fancyBox project-sample BdayMindr visually-hidden-text" href="assets/images/project_samples/BdayMindr_sample.png">BdayMindr screenshot</a>
+										<p>Create a list of friends and family, along with their respective birthdays (or sign up via Facebook and have the list pre-populated for you). Then, prior to a friend's birthday, you'll be sent a reminder. What you do with this information is up to you.</p>
+										<dl>
+											<dt>Keywords:</dt>
+												<dd>NodeJS, CouchDB, Facebook Connect, jQuery, Hasher.js, Twitter Bootstrap, jQueryUI, Express.js, HTML/CSS/JS</dd>
+										</dl>
+									</div>
+								</div>
+								<div class="project site round module">
+									<div class="moduleHead">
+										<a href="?project=site" title="Show all Website projects" class="moduleType round"><i class="site"></i><span class="visually-hidden">Website</span></a>
+										<a href="http://www.noikethebook.com/"><h3>Noike: The Book</h3></a>
+									</div>
+									<div class="moduleBody">
+										<a class="project-sample Noike visually-hidden-text" href="http://www.noikethebook.com/">www.noikethebook.com screenshot</a>
+										<p>A PSD to HTML/CSS website build-out, to promote the publication of a book.</p>
+										<dl>
+											<dt>Keywords:</dt>
+												<dd>HTML/CSS/JS, jQuery</dd>
+										</dl>
+									</div>
+								</div>
+								<div class="round module moduleHeader pastProjects">
+									<h2>Past Projects</h2>
+								</div>
+								<div class="project tool round module">
+									<div class="moduleHead">
+										<a href="?project=tool" title="Show all Internal Tools projects" class="moduleType round"><i class="tool"></i><span class="visually-hidden">Show all Internal Tools projects</span></a>
+										<h3>SLT Remix</h3>
+									</div>
+									<div class="moduleBody">
+										<a class="fancyBox project-sample SLT-Remix visually-hidden-text" href="assets/images/project_samples/SLT_Remix_sample.png">SLT Remix screenshot</a>
+										<p>The SLT (Safe Login Toolbar) Remix was a tool I developed to help the tech support and community management teams at Ning.com quickly tackle common social network adminstration tasks. It is still in use today.</p>
+										<dl>
+											<dt>Keywords:</dt>
+												<dd>HTML/CSS/JS, jQuery, jQueryUI</dd>
+										</dl>
+									</div>
+								</div>
+								<div class="project network round module">
+									<div class="moduleHead">
+										<a href="?project=network" title="Show all Social Network projects" class="moduleType round"><i class="network"></i><span class="visually-hidden">Show all Social Network projects</span></a>
+										<h3>Love and Theft Fans</h3>
+									</div>
+									<div class="moduleBody">
+										<a class="fancyBox project-sample Love-and-Theft visually-hidden-text" href="assets/images/project_samples/Love_and_Theft_sample.png">Love and Theft screenshot</a>
+										<p>A PSD to HTML/CSS adaptation for a band's fan network.</p>
+										<dl>
+											<dt>Keywords:</dt>
+												<dd>HTML/CSS, Ning network</dd>
+										</dl>
+									</div>
+								</div>
+								<div class="project network round module">
+									<div class="moduleHead">
+										<a href="?project=network" title="Show all Social Network projects" class="moduleType round"><i class="network"></i><span class="visually-hidden">Show all Social Network projects</span></a>
+										<h3>Caroline's Comedy Community</h3>
+									</div>
+									<div class="moduleBody">
+										<a class="fancyBox project-sample Carolines-Comedy visually-hidden-text" href="assets/images/project_samples/Carolines_Comedy_sample.png">Carolines Comedy screenshot</a>
+										<p>I built out the community portal for patrons and fans of Caroline's Comedy Club.</p>
+										<dl>
+											<dt>Keywords:</dt>
+												<dd>HTML/CSS, Ning network</dd>
+										</dl>
+									</div>
+								</div>
+								<div class="project site round module">
+									<div class="moduleHead">
+										<a href="?project=site" title="Show all Website projects" class="moduleType round"><i class="site"></i><span class="visually-hidden">Website</span></a>
+										<a href="http://fraicheyogurt.com/"><h3>Fraiche Yogurt</h3></a>
+									</div>
+									<div class="moduleBody">
+										<a class="project-sample Fraiche visually-hidden-text" href="http://fraicheyogurt.com/">fraicheyogurt.com screenshot</a>
+										<p>After correcting a previous design that had gone off-track, I developed and deployed the original web presence for a local retail startup, under a tight deadline.</p>
+										<dl>
+											<dt>Keywords:</dt>
+												<dd>HTML/CSS</dd>
+										</dl>
+									</div>
+								</div>
+							</div>
+							<div class="rightCol">
+								<div class="round module">
+									<h3>Project Types</h3>
+									<ul id="projectNav">
+										<li style="display: none;"><a title="Show all projects" href="http://bradmallow.com/#projects"><i class="eye"></i>View All</a></li>
+										<li><a href="?project=app" title="Show all App projects"><i class="app"></i>Apps</a></li>
+										<li><a href="?project=site" title="Show all Website projects"><i class="site"></i>Websites</a></li>
+										<li><a href="?project=tool" title="Show all Internal Tools projects"><i class="tool"></i>Internal Tools</a></li>
+										<li><a href="?project=network" title="Show all Social Network projects"><i class="network"></i>Social Networks</a></li>
+									</ul>
+								</div>
+								<div class="backToTopButtonArea">
+									<a title="Back To The Top" class="backToTop" href="#backToTop"><i></i><span class="visually-hidden">Back To The Top</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bottomBezel ieBoxModel roundBottomBig bezelShadow">
+			<footer>
+				<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a><br />
+				<span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dc:title" rel="dc:type">brad mallow</span>
+			</footer>
+		</div>
+		<!-- Javascript at the bottom for fast page loading -->
+		<!-- load jQuery from Google's CDN, with a protocol relative URL; fall back to local if necessary -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+		<script>
+			window.jQuery || document.write('<script src="assets/plugins/jquery/1.6.4/jquery.min.js">\x3C/script>');
+		</script>
+		<!-- all js = plugins + local -->
+		<script src="assets/js/js.cat.min.js"></script>
+		<!-- Google Analytics code via mathiasbynens.be/notes/async-analytics-snippet -->
+		<script>
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-17797344-1']);
+			_gaq.push(['_setDomainName', '.bradmallow.com']);
+			_gaq.push(['_trackPageview']);
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+	</body>
+</html>

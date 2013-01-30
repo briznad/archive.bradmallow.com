@@ -1,0 +1,24 @@
+/* font styles */
+
+@font-face {
+	font-family: 'Coconut';
+	src: url('/assets/fonts/coconut/coconut-medium-webfont.eot');
+	src: local('☺'),
+		url('/assets/fonts/coconut/coconut-medium-webfont.woff') format('woff'),
+		url('/assets/fonts/coconut/coconut-medium-webfont.ttf') format('truetype'),
+		url('/assets/fonts/coconut/coconut-medium-webfont.svg#webfontHiPPO5WE') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Coconut';
+	src: url('/assets/fonts/coconut/coconut-boldd-webfont.eot');
+	src: local('☺'),
+		url('/assets/fonts/coconut/coconut-boldd-webfont.woff') format('woff'),
+		url('/assets/fonts/coconut/coconut-boldd-webfont.ttf') format('truetype'),
+		url('/assets/fonts/coconut/coconut-boldd-webfont.svg#webfonty75zhcw1') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+/* /font styles */
