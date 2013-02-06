@@ -649,6 +649,7 @@ html {
 	background-color: #b36d3c;
 	background-image: url(/assets/images/wood_pattern_clean-optimized.jpg);
 	background-repeat: repeat;
+	background-attachment: fixed;
 }
 .beautifuluniquesnowflake {
 	background-image: url(/assets/images/animated_eyes.gif);
